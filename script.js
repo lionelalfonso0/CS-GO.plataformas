@@ -1,24 +1,26 @@
 async function mostrarAgentes(){
-const info = document.querySelector(".valorant");
+const info = document.querySelector("#agentes");
 
-console.log(info);
 const agentes= await fetch(`https://valorant-api.com/v1/agents`)
     .then((response) => response.json())
     .then(data => {
+        data.data.forEach (agente => {
+            if(agente.isPlayableCharacter){
+                info.innerHTML += `
+                    <div class="col">
+                        <div class="card" style="width: 15rem; height: 30rem;">
+                            <img src="${agente.displayIcon}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">${agente.displayName}</h5>
+                                <p class="card-text">${agente.description}</p>
+                            </div>
+                        </div>
+                        </div>`
+                console.log(agente.displayName);
+            }
+        })
         return data.data;
     })
-    console.log(agentes);
-    agentes.map(agente => {
-        if(agente.isPlayableCharacter){
-            console.log(agente);
-            console.log(agente.uuid);
-            console.log(agente.displayName);  
-            
-            /*agente.abilities.map(habilidad =>{
-                console.log(habilidad);
-            })*/
-        }
-    });
 }
 mostrarAgentes();
 

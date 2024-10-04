@@ -22,8 +22,14 @@ h1 {
 
 .container {
     display: flex;
+}
+
+#agentes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
-    align-items: center;
 }
 
 input {
@@ -34,6 +40,3 @@ button {
     margin-top: 10px;
 }
 
-#agentes {
-    margin-top: 4rem;
-}
