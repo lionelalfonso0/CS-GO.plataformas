@@ -15,12 +15,12 @@ const agentes= await fetch(`https://valorant-api.com/v1/agents`)
                                 <p class="card-text">${agente.description}</p>
                             </div>
                         </div>
+                            <img src="${agente.role.displayIcon}" class="card-img-bottom" alt="...">
                         </div>`
-                console.log(agente.displayName);
+                console.log(agente.uuid);
             }
         })
         return data.data;
     })
 }
 mostrarAgentes();
-

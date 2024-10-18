@@ -1,0 +1,42 @@
+body {
+    background-color: #1F2A30;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+nav {
+    background-color:#27292D;
+}
+
+.nav-link {
+    color:#FFFFFF;
+}
+
+.nav-link:hover {
+    color: #BFBFBF; /* Hover del texto */
+}
+
+h1 {
+    text-align: center;
+    color:#FF4655;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #2b4e7c;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    border-bottom: 3px solid #90e3fd;
+}
+
+.role-icon {
+    width: 30px;
+}
