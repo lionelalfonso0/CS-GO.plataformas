@@ -1,0 +1,83 @@
+body {
+    background-color: #1F2A30;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav {
+    background-color: #27292D;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #BFBFBF;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #FF4655;
+}
+
+.card-title {
+    color: #FF4655;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+#agentes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+input {
+    background-color: rgb(196, 196, 125);
+}
+
+button {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #2D2F33;
+    width: 100%;
+    max-width: 300px; /* Limitar el ancho de las tarjetas */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    overflow: hidden; /* Evitar que el contenido sobresalga */
+}
+
+.card-img-top {
+    height: 150px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Mantener la proporción */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Levantar la card al hacer hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar la sombra */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.role-icon {
+    margin-top: 10px; /* Espaciado superior opcional */
+    display: block; /* Asegura que el ícono se centre */
+    margin-left: auto; /* Centrar el ícono */
+    margin-right: auto; /* Centrar el ícono */
+}

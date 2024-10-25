@@ -1,8 +1,4 @@
-body {
-    background-color: #1F2A30;
-    font-family: 'Rajdhani', sans-serif;
-    color: white;
-}
+/* ---------- Navbar ---------- */
 
 nav {
     background-color: #27292D;
@@ -14,6 +10,15 @@ nav {
 
 .nav-link:hover {
     color: #BFBFBF;
+}
+
+
+/* ---------- Body ---------- */
+
+body {
+    background-color: #1F2A30;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
 }
 
 h1 {
@@ -30,6 +35,9 @@ span {
     justify-content: center;
     align-items: center;
 }
+
+
+/* ---------- Card ---------- */
 
 .card {
     background-color: #2b4e7c;
