@@ -1,0 +1,77 @@
+body {
+    background-color: #1F2A30;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+nav {
+    background-color: #27292D;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #BFBFBF;
+}
+
+h1 {
+    text-align: center;
+    color: #FF4655;
+}
+
+span {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #2b4e7c;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    border-bottom: 3px solid #90e3fd;
+}
+
+.list-group-item img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.list-group-item {
+    background-color: #2b4e7c;
+}
+
+.list-group-item:hover {
+    background-color: #303030;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel img {
+    object-fit: cover;
+    max-height: 400px;/
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(1); /* Hace que los íconos de control sean más visibles en fondos oscuros */
+}
+
+.text-dark {
+    --bs-text-opacity: 1;
+    color: rgb(255 255 255) !important;
+}
