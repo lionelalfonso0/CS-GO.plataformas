@@ -14,17 +14,11 @@ La web obtiene datos de la API de Valorant para mostrar información sobre los a
 API de Valorant (para obtener datos)
 ¿Cómo usarlo?
 
-Clona el repositorio:
+Clona el repositorio: git clone https://github.com/usuario/valorant-info-web.git
 
-git clone https://github.com/usuario/valorant-info-web.git
+Instala las dependencias: npm install
 
-Instala las dependencias:
-
-npm install
-
-Inicia el proyecto:
-
-npm start
+Inicia el proyecto: npm start
 
 La aplicación estará disponible en http://localhost:3000
 
