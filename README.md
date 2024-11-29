@@ -7,8 +7,13 @@ Agentes: Muestra tarjetas con la foto, nombre, rol y descripción de cada agente
 Mapas: Muestra tarjetas con la foto, nombre y descripción de los mapas del juego.
 Tecnologías Usadas
 HTML, CSS, JavaScript
+
+La API es dash.valorant-api.com
+La web obtiene datos de la API de Valorant para mostrar información sobre los agentes y mapas. Cada agente tiene su nombre, rol, imagen y descripción, y cada mapa tiene su nombre, imagen y descripción.
+
 API de Valorant (para obtener datos)
 ¿Cómo usarlo?
+
 Clona el repositorio:
 
 git clone https://github.com/usuario/valorant-info-web.git
@@ -21,10 +26,7 @@ Inicia el proyecto:
 
 npm start
 
-La aplicación estará disponible en http://localhost:3000.
-
-La API es dash.valorant-api.com
-La web obtiene datos de la API de Valorant para mostrar información sobre los agentes y mapas. Cada agente tiene su nombre, rol, imagen y descripción, y cada mapa tiene su nombre, imagen y descripción.
+La aplicación estará disponible en http://localhost:3000
 
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT.
