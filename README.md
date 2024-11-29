@@ -9,6 +9,7 @@ Tecnologías Usadas
 HTML, CSS, JavaScript
 
 La API es dash.valorant-api.com
+
 La web obtiene datos de la API de Valorant para mostrar información sobre los agentes y mapas. Cada agente tiene su nombre, rol, imagen y descripción, y cada mapa tiene su nombre, imagen y descripción.
 
 API de Valorant (para obtener datos)
